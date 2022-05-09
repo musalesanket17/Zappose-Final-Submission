@@ -1,0 +1,179 @@
+.h {
+    color: hwb(0 3% 95%);
+    font: 600 24px Open Sans, sans-serif;
+    margin-bottom: 16px;
+}
+
+.conatiner1 {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.conatiner1>div {
+    height: 250px;
+    width: 30%;
+    margin: 10px;
+}
+
+.conatiner1img {
+    height: 35%;
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.page1text {
+    height: 30px;
+    width: 100%;
+    margin-top: 120px;
+    display: flex
+}
+
+.conatiner1img+p {
+    font-size: 20px;
+    position: relative;
+}
+
+.conatiner1img>h3 {
+    font-size: 20px;
+    position: relative;
+}
+
+.price:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.page2 {
+    display: flex;
+}
+
+.page2 {
+    display: flex;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text>p {
+    font-size: 30px;
+}
+
+.text>button {
+    color: black;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.text>button:hover {
+    color: white;
+    background-color: rgb(222, 222, 243);
+}
+
+.trending {
+    display: flex
+}
+
+.trending>div {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.trending>div>img {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.trending>div>img+h2 {
+    text-align: center;
+}
+
+.trending>div>img+h2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.page3 {
+    display: flex;
+}
+
+.pg3heading {
+    color: green text;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pg3heading+button {
+    text-align: center;
+    position: relative;
+    left: 8%;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.pg3heading+button:hover {
+    text-align: center;
+    position: relative;
+    left: 8%;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.conatiner2img {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conatiner2 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+}
+
+.conatiner2>div {
+    width: 100%;
+    margin: 20px;
+}
+
+.pg5 {
+    display: flex;
+    margin: 10px;
+}
+
+.pg5>div {
+    height: 450px;
+    width: 50%;
+    margin: 20px;
+}
+
+.limg {
+    width: 100%;
+    height: 100%;
+}
+
+.limg+div {
+    text-align: center;
+}
+
+.linehover {
+    text-decoration: underline;
+}
+
+.linehover:hover {
+    text-decoration: underline;
+    color: blue;
+}
