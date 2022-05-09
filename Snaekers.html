@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers & Athletic Shoes</title>
+    <link rel="stylesheet" href="sneakers.css">
+</head>
+<body>
+     <div id="sneakers1">
+         <div>
+             <h2>Sneakers & Athletic</h2>
+         </div>
+         
+         <div>
+          <p>Sort By</p>
+             <select id="sselect">
+                 <option value="relevance">Relevance</option>
+                 <option value="new arrivels">New Arrivels</option>
+                 <option value="best seller">Best Seller</option>
+                 <option value="htl">Price:High to Low</option>
+                 <option value="lth">Price:Low to High</option>
+                 <option value="barnd name">Brands Name</option>
+             </select>
+         </div>
+     </div>
+     <p>9414 Items found</p>
+     <p>Have Feedback?</p>
+     <h4>Your Slections</h4>
+     <div id="sneakers2">
+        <button>Shoes</button>
+        <button>Sneakers & Athelatic Shoes</button>
+        <button>Women</button>
+        <button>Men</button>
+        <button>Boys</button>
+        <button>Girls</button>
+        <button>Black</button>
+        <button>White</button>
+
+   
+     </div>
+
+    <div id="sneakersmain">
+        <div id="sneakers3">
+            <select>
+                <option value="">Women's Size</option>
+                <option value="1">1</option>
+                <option value="1.5">1.5</option>
+                <option value="2">2</option>
+                <option value="2.5">2.5</option>
+                <option value="3">3</option>
+                <option value="3.5">3.5</option>
+                <option value="4">4</option>
+                <option value="4.5">4.5</option>
+                <option value="5">5</option>
+                <option value="5.5">5.5</option>
+                <option value="6">6</option>
+                <option value="6.5">6.5</option>
+                <option value="7">7</option>
+                <option value="7.5">7.5</option>
+                <option value="8">8</option>
+                <option value="8.5">8.5</option>
+                <option value="9">9</option>
+                <option value="9.5">9.5</option>
+                <option value="10">10</option>
+                
+            </select>
+            <hr>
+            <select>
+                <option value="">Women's Width</option>
+            </select>
+            <hr>
+            <select>
+               <option value="">Men's Size</option>
+           </select>
+           <hr>
+           <select>
+               <option value="">Men's Width</option>
+           </select>
+           <hr>
+           <select>
+               <option value="">Kid's Size</option>
+           </select>
+           <hr>
+           <select>
+               <option value="">Kid's Width</option>
+           </select>
+           <hr>
+           <select>
+               <option value="">Gender</option>
+           </select>
+           <hr>
+           <p>Woens(10529)</p>
+           <p>Mens(8522)</p>
+           <p>Girls(2525)</p>
+           <p>Boys(1998)</p>
+           <select>
+               <option value="">Sub Category</option>
+               
+           </select>
+           <hr>
+           <p>LifeStyle Sneakers(12529)</p>
+           <p>Atheletic Shoes(2522)</p>
+           <p>Runnning Shoes(3525)</p>
+           <p>Dance Shoes(4998)</p>
+           <p>Cleats(198)</p>
+   
+           <select>
+               <option value="">Brands</option>
+               
+           </select>
+           <hr>
+           <p>44 Gold(12)</p>
+           <p>5.12 Tacticls(522)</p>
+           <p>A.S 98(35)</p>
+           <p>Adidas(98)</p>
+           <p>Cleats(198)</p>
+           <p>Adidas Gold(198)</p>
+           <p>Adidas Kids(148)</p>
+           <p>Adidas Running(138)</p>
+   
+           <select>
+               <option value="">Price</option>
+               
+           </select>
+           <hr>
+           <p>50$ and under(1234)</p>
+           <p>100$ and under(822)</p>
+           <p>150$ and under(535)</p>
+           <p>200$ and under(798)</p>
+           <p>250$ and under(198)</p>
+           <P>300$ and over</P>
+          
+   
+           <select>
+               <option value="">Colour</option>
+               
+           </select>
+           <hr>
+           <p>Gray</p>
+           <p>Black Dull</p>
+           <p>Red</p>
+           <p>Green</p>
+           <p>Blue</p>
+           <p>Teal</p>
+           <p>Cyan</p>
+           <p>White</p>
+   
+   
+        </div>
+
+        <div id="sneakers4">
+
+        </div>
+       
+    </div>
+   
+ 
+  </body>
+</html>     
+     
+   
+
+    
+
+
+<script>
+    
+     var sneakersarr=JSON.parse(localStorage.getItem("sneakrerslist")) || []
+
+    var sneakers=[
+        {
+            img:"https://m.media-amazon.com/images/I/81rzGlRUoHL._AC_SR1840,1472_.jpg",
+            type:"On",
+            productname:"Cloud 5",
+            price:"$55.49"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71Odf8VZGqL._AC_SR1840,1472_.jpg",
+            type:"Heelys",
+            productname:"Roket",
+            price:"$49.99"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/81RZZhp39rL._AC_SR1840,1472_.jpg",
+            type:"native Shoes Kids",
+            productname:"jefferson",
+            price:"$45.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71LUpdy-u5L._AC_SR1840,1472_.jpg",
+            type:"native Shoes Kids",
+            productname:"jefferson",
+            price:"$40.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71-KL-y0tYL._AC_SR1840,1472_.jpg",
+            type:"Converse Kids",
+            productname:"Chunk Taylor",
+            price:"$30.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71tcBmHxh8L._AC_SR1840,1472_.jpg",
+            type:"adidas Kids",
+            productname:"Ubersonic 4",
+            price:"$50.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/819PLDA5waL._AC_SR1840,1472_.jpg",
+            type:"Adidias Kids",
+            productname:"Lite Racer",
+            price:"$43.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71poqHR04JL._AC_SR1840,1472_.jpg",
+            type:"Adidas Kids",
+            productname:"Racer TR 21",
+            price:"$49.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71GBPX9d0oL._AC_SR1840,1472_.jpg",
+            type:"Convers Kids",
+            productname:"Chunk Tayour",
+            price:"&35.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71QXbMD77EL._AC_SR1840,1472_.jpg",
+            type:"vans Kids",
+            productname:"Slip-On V",
+            price:"$35.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/7138CCvk4iL._AC_SR1840,1472_.jpg",
+            type:"vans Kids",
+            productname:"Classic slip-On",
+            price:"$35.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71Jg1EQzj2L._AC_SR1840,1472_.jpg",
+            type:"Adidas Originals Kids",
+            productname:"Smooth Runner Kids",
+            price:"$46.oo"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71UIgzorggL._AC_SR1840,1472_.jpg",
+            type:"Native Shoes Kids",
+            productname:"jefferson Print",
+            price:"$48.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/81n85I0VvpL._AC_SR1840,1472_.jpg",
+            type:"Under Armor Kids",
+            productname:"jet'21",
+            price:"$49.99"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71KdcwBLKpL._AC_SR1840,1472_.jpg",
+            type:"vans Kids",
+            productname:"Old Skool V",
+            price:"$35.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71jsxMAE+pL._AC_SR1840,1472_.jpg",
+            type:"Adidas Duplicate",
+            productname:"Stan Smit CF",
+            price:"$33.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/81+gP95bJoL._AC_SR1840,1472_.jpg",
+            type:"Adidas Kids",
+            productname:"Stan Samit",
+            price:"$55.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71jo872Ae3L._AC_SR1840,1472_.jpg",
+            type:"Adidas Original",
+            productname:"Stnm Smit",
+            price:"$45.00"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/81e-1HHBHZL._AC_SR1840,1472_.jpg",
+            type:"Adidas Kids",
+            productname:"Durmo 10ls",
+            price:"$44.99"
+        },
+        {
+            img:"https://m.media-amazon.com/images/I/71MDTmRyR1L._AC_SR1840,1472_.jpg",
+            type:"Native Shoes Kids",
+            productname:"Jefferson Print",
+            price:"$48.00"
+        },
+    ]
+
+      displaydata(sneakers)
+
+      function displaydata(x){
+      
+           x.forEach(function (el){
+
+             var box=document.createElement("div")
+
+              var productimg=document.createElement("img")
+              productimg.setAttribute("src",el.img)
+
+              var h1=document.createElement("h4")
+              h1.innerText=el.type
+
+              var name=document.createElement("p")
+              name.innerText=el.productname
+
+              var price=document.createElement("p")
+              price.innerText=el.price
+
+              var btn=document.createElement("button")
+              btn.innerText="Add to Cart"
+              btn.addEventListener("click",function (){
+                  sneakersadd(el)
+              })
+             
+
+              box.append(productimg,h1,name,price,btn)
+
+              document.querySelector("#sneakers4").append(box)
+           })
+      }
+
+      function  sneakersadd(el){
+
+           sneakersarr.push(el)
+           alert("Product Successfully Added")
+           localStorage.setItem("sneakserslist",JSON.stringify(sneakersarr))
+      }
+</script>

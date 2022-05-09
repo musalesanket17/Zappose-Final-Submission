@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+      <link rel="stylesheet" href="Men.css">
+  
+  <style>
+      a{
+          text-decoration: none;
+          color:black;
+      }
+      *{
+          font-family: sans-serif;
+      }
+  </style>
+      
+</head>
+<body style="background-color:rgb(207, 207, 207)">
+    <h1 style="text-align: center;">My Cart</h1>
+
+
+    <div id="Ho_lder">
+        
+    </div>
+    <a href="display.html" style="text-align: center;"><h1 > Home Page</h1></a>
+   
+</body>
+</html>
+<script>
+      var Addarr=JSON.parse(localStorage.getItem("mencart"))||[]
+
+      display(Addarr)
+
+      function display(x){
+        
+        x.forEach(function (elem,index) {
+            
+            var box = document.createElement("div");
+            var Product = document.createElement("img");
+            Product.setAttribute("src", elem.ProductImg);
+            var Brand = document.createElement("h6");
+            Brand.innerText = elem.CompanyName;
+            var Product_discription = document.createElement("p");
+            Product_discription.innerText = elem.Discription;
+            var Product_amount = document.createElement("p");
+            Product_amount.innerText = elem.Amount;
+            var Adding = document.createElement("button")
+            Adding.innerText = "Delete"
+            // style.cursor="pointer"
+            Adding.addEventListener("click",function(){
+                    deleteCart(elem,index)
+            })
+            box.append(Product, Brand, Product_discription, Product_amount,Adding);
+            document.querySelector("#Ho_lder").append(box);
+            });
+
+          
+   }
+      function deleteCart(elem,index){
+                Addarr.splice(index,1)
+                alert("Your Product Removed Successfully")
+                localStorage.setItem("mencart",JSON.stringify(Addarr))
+                window.location.reload()
+            }
+            
+
+     
+         
+</script>

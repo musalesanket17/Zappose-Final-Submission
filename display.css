@@ -1,0 +1,266 @@
+
+#landmain>div:nth-child(1){
+    width: 100%;
+    height:35px;
+    background-color:#E5F1F8 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#landmain1{
+  
+    height: 550px;
+    width: 100%;
+ 
+    
+
+}
+#landmain1>div>img{
+    height: 550px;
+    width: 100%;
+    
+}
+#landmain1>div:nth-child(2){
+   height: 200px;
+   width: 440px;
+   background-color:whitesmoke;
+   margin-top: -300px;
+   margin-left: 30px;
+   
+  
+}
+#landmain1>div:nth-child(2)>h2{
+  margin-left: 20px;
+}
+#landmain1>div:nth-child(2)>p{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+#landmain1>div:nth-child(2)>button{
+   padding:0px 8px 0px 8px;
+   margin-top: -5px;
+   margin-left: 20px;
+   
+   border: 2px solid black;
+   border-radius: 5px;
+}
+#landmain1>div:nth-child(2)>button:hover{
+    color: white;
+    background-color: black;
+}
+div+h2{
+   margin-top: 30px ;
+   margin-bottom: 50px;
+   margin-left: 30px;
+}
+#landmain2{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows:repeat(1,auto);
+   gap:15px;
+
+}
+#landmain2>div{
+  
+   background-color:white;
+  
+}
+#landmain2>div>img{
+    height:60%;
+    width:80%;
+    
+    
+}
+#landmain2>div>img+p{
+   text-align: center;
+}
+#landmain3{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1,auto);
+   gap:15px;
+   margin-top: -30px;
+
+
+}
+
+#landmain3>div>img{
+   height: 70%;
+   width:100%;
+
+}
+#landmain3>div>img~h3{
+   text-align: center;
+}
+#landmain3>div>img~p{
+   text-align: center;
+   color: gray;
+}
+#landmain4{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(1,auto);
+   gap:20px;
+ 
+}
+#landmain4>div{
+  
+   margin-top: 30px;
+  
+}
+#landmain4>div>img{
+   height: 100%;
+   width: 100%;
+  
+  
+}
+#landmain4>div:nth-child(1){
+   background-color: rgb(240, 240, 116);
+  
+}
+#landmain4>div:nth-child(1)>img{
+   height: 40%;
+   width:70%;
+   margin-top: 130px;
+   margin-left:80px;
+   
+}
+#landmain4>div:nth-child(1)>p{
+ 
+   margin-top: -10px;
+   margin-left:80px;
+   
+}
+#landmain4>div:nth-child(1)>button{
+ 
+   margin-left:80px;
+   padding: 0px 10px 0px 10px;
+   border-radius: 10px;
+   background-color: white;
+   
+}
+#landmain4>div:nth-child(1)>button:hover{
+   color: white;
+   background-color: black;
+}
+#landmain5{
+   display: grid;
+   grid-template-columns: 400px 830px;
+   grid-template-rows: repeat(1,auto);
+   gap:15px;
+   margin-top: 30px;
+   
+
+}
+
+#landmain5>div>img{
+   height: 100%;
+   width: 100%;
+}
+#landmain5>div:nth-child(1)>button{
+ 
+   margin-left:60px;
+   padding: 0px 10px 0px 10px;
+   border-radius: 10px;
+   background-color: white;
+   
+}
+#landmain5>div:nth-child(1)>button:hover{
+   color: white;
+   background-color: black;
+}
+#landmain5>div:nth-child(1)>h2{
+  
+   margin-top: 130px;
+   margin-left:60px;
+   
+}
+#landmain5>div:nth-child(1)>p{
+  
+  
+   margin-left:60px;
+   font-size: 22px;
+   
+}
+@media all and (min-width:450px) and (max-width:750px){
+   #landmain2{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-template-rows:repeat(2,auto);
+       gap:15px;
+   
+   }
+
+   #landmain3{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(2,auto);
+       gap:15px;
+       margin-top: -30px;
+    
+   
+   }
+
+   #landmain4{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(2,auto);
+       gap:20px;
+     
+   }
+
+   #landmain5{
+       display: grid;
+       grid-template-columns: 600px ;
+       grid-template-rows: repeat(2,auto);
+       gap:15px;
+       margin-top: 30px;
+       
+   
+   }
+}
+
+@media all and (min-width:200px) and (max-width:449px){
+   #landmain2{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows:repeat(3,auto);
+       gap:15px;
+   
+   }
+
+   #landmain3{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(3,auto);
+       gap:15px;
+       margin-top: -30px;
+    
+   
+   }
+
+   #landmain4{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(2,auto);
+       gap:20px;
+     
+   }
+
+   #landmain5{
+       display: grid;
+       grid-template-columns: 600px ;
+       grid-template-rows: repeat(2,auto);
+       gap:15px;
+       margin-top: 30px;
+       
+   
+   }
+}
+a{
+   text-decoration: none;
+}
+*{
+   font-family: sans-serif;
+}

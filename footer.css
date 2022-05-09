@@ -1,0 +1,129 @@
+/* *{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* #footermain{
+    height: 800px;
+    width: 100%;
+    border:2px solid red;
+} */
+#footerpage1{
+    height: 15%;
+    width: 100%;
+    background-color:#032c48;
+    color: white;
+    
+
+    /* #003953
+    #144860 */
+}
+#footerpage1>input{
+   
+    color:gray;
+    margin-left: 30px;
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+}
+#footerpage1>p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font:600 18px Open Sans,sans-serif;
+    margin-bottom: 8px;
+    color: white;
+}  
+#footerpage1>h3{
+  
+    margin-left: 30px;
+    font:600 18px Open Sans,sans-serif;
+    color: white;
+
+} 
+#footerpage1>button{
+    
+    
+    background-color:#032c48;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}   
+#footerpage1>button:hover{
+   color: black;
+   background-color: white;
+}    
+#footerpage2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 360px;
+    grid-template-rows: 550px;
+   
+}
+/* #footerpage2>div{
+    border:2px solid red;
+}   */
+#footerpage2>div>ul{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom:3px;
+    list-style:none;
+    color: white;
+}  
+#footerpage2>div>h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}  
+#footerpage2>div>ul>li{
+    margin-left: 10px;
+    color: white;
+    margin-bottom:5px;
+}   
+#footerpage3>div{
+     height: 200px;
+     width: 300px;
+     margin: auto;
+     background-color: #144860;
+     margin-top: 25px;
+} 
+#footerpage3>div>h3{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: white;
+} 
+#footerpage3>div>p{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+}  
+#footerpage3>div>button{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    border-color: white;
+    background-color: #144860;
+    padding: 5px 17px  5px 17px ;
+}     
+#footerpage4{
+    height: 50px;
+    width: 330px;
+    margin-left: 13px;
+    margin-top: 5px;
+    
+}   
+#footerpage5{
+    height: 90px;
+    width: 100%;
+    background-color: #032c48;
+}  
+#footerpage5>p:nth-child(1){
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}  
+#footerpage5>p:nth-child(2){
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
